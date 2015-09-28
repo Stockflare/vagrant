@@ -2,7 +2,9 @@
 
 Some of our developers like to develop inside a Vagrant virtual machine.  This project contains a ```Vagrantfile``` that will build a machine suitable for Stockflare development.
 
-We do all our developing inside Docker containers, so basically this project will build you a Ubuntu 14.04 machine that can run Docker.
+We do all our developing inside Docker containers, so basically this project will build you a Ubuntu 14.04 machine that can run Docker and ```docker-compose```.  
+
+```docker-compose``` is symlinked to ```compose``` for convenience
 
 ## Setup
 
